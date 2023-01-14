@@ -7,11 +7,14 @@ body {
 .nav {
 	display: flex;
 	justify-content: space-between;
+	top: 0;
 	background-color: rgb(10,10,35);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 20px;
 	padding-left: 20px;
+	position: fixed;
+	width: 97%;
 }
 
 .searchBar {
