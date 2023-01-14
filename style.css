@@ -1,0 +1,79 @@
+/*Navigation bar*/
+body {
+	margin: 0px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(10,10,35);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.searchBar {
+	display: flex;
+}
+
+.fa-magnifying-glass {
+	color: rgb(208,208,200);
+	background-color: rgb(59,59,79);
+	height: 18px;
+	padding-top: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.search {
+	height: 26px;
+	width: 400px;
+	color: white;
+	background-color: rgb(59,59,79);
+	flex: 1;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+::placeholder {
+	background-color: rgb(59,59,79);
+	color: rgb(208,208,200);
+}
+
+.title {
+	font-family: courier, monospace;
+	font-size: 28px;
+	color: white;
+	cursor: pointer;
+}
+
+.logo {
+	width: 20px;
+}
+
+.menu {
+	width: 76px;
+	height: 30px;
+	background-color: rgb(10,10,35);
+	color: white;
+	font-size: 18px;
+	border: 1px solid white;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-left: 180px;
+}
+
+.signIn {
+	width: 107px;
+	height: 30px;
+	background-color: rgb(255,189,64);
+	border: 1px solid rgb(254,172,50);
+	font-size: 18px;
+	cursor: pointer;
+}
