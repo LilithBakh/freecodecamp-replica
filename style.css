@@ -2,6 +2,7 @@
 body {
 	margin: 0px;
 	background-color: rgb(27,27,50);
+	width: 100%;
 }
 
 .nav {
@@ -36,7 +37,7 @@ body {
 .search {
 	height: 26px;
 	width: 400px;
-	color: white;
+	color: rgb(245,246,247);
 	background-color: rgb(59,59,79);
 	flex: 1;
 	border: none;
@@ -53,7 +54,7 @@ body {
 .title {
 	font-family: courier, monospace;
 	font-size: 28px;
-	color: white;
+	color: rgb(245,246,247);
 	cursor: pointer;
 }
 
@@ -65,9 +66,9 @@ body {
 	width: 76px;
 	height: 30px;
 	background-color: rgb(10,10,35);
-	color: white;
+	color: rgb(245,246,247);
 	font-size: 18px;
-	border: 1px solid white;
+	border: 1px solid rgb(245,246,247);
 	cursor: pointer;
 	margin-right: 5px;
 	margin-left: 180px;
@@ -85,7 +86,7 @@ body {
 /*Intro*/
 .intro {
 	background-color: rgb(27,27,50);
-	color: white;
+	color: rgb(245,246,247);
 	text-align: center;
 	margin-left: 300px;
 	margin-right: 300px;
@@ -130,4 +131,72 @@ figcaption {
 	margin-bottom: 100px;
 	margin-top: 10px;
 	color: rgb(208,208,200);
+}
+
+/*Middle section*/
+.seen {
+	text-align: center;
+	background-color: rgb(59,59,79);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.seen h1 {
+	color: rgb(208,208,200);
+	font-size: 45px;
+}
+
+/*Quotes*/
+.aluminiQuotes h1 {
+	font-size: 43px;
+	color: rgb(245,246,247);
+	margin-top: 50px;
+}
+
+.aluminiQuotes {
+	text-align: center;
+	margin-left: 130px;
+	margin-right: 130px;
+
+}
+
+.shawn {
+	display: flex;
+	background-color: rgb(10,10,35);
+	margin-bottom: 55px;
+	margin-top: 40px;
+	padding-bottom: 0;
+}
+
+.sarah {
+	display: flex;
+	background-color: rgb(10,10,35);
+	margin-bottom: 55px;
+	padding: 0;
+}
+
+.emma {
+	display: flex;
+	background-color: rgb(10,10,35);
+	padding: 0;
+}
+
+.content {
+	width: 700px;
+	transform: translateY(15%);
+	color: rgb(245,246,247);
+}
+
+.content h3, p {
+ 	font-size: 24px;
+}
+
+.content blockquote {
+	font-size: 20px;
+	text-align: left;
+	margin-right: 0px;
+}
+
+.aluminiQuotes img {
+	display: block;
 }
