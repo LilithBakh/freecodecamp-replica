@@ -247,3 +247,73 @@ figcaption {
 	display: flex;
 	justify-content: space-between;
 }
+
+/*Links*/
+.extraInfo {
+	display: flex;
+	background-color: rgb(59,59,79);
+	color: rgb(255,255,255);
+	font-size: 16px;
+}
+
+.info {
+	margin-left: 90px;
+	padding: 40px 10px;
+}
+
+.info > h3 {
+	font-size: 18px;
+	font-family: Lato,sans-serif;
+}
+
+.info h3 a:link {
+	color: rgb(255,255,255);
+}
+
+.info h3 a:hover {
+	text-decoration: none;
+}
+
+.info > span {
+	display: block;
+	margin-bottom: 26px;
+	width: 480px;
+	font-family: Lato,sans-serif;
+	line-height: 30px;
+}
+
+.links {
+	margin-right: 90px;
+	padding: 40px 10px;
+}
+
+.links > h4 {
+	margin-top: 0px;
+	text-align: center;
+	font-family: Lato,sans-serif;
+}
+
+.guide {
+	display: flex;
+	justify-content: space-between;
+}
+
+.guide div {
+	padding: 15px;
+}
+
+.guide div a {
+	display: block;
+	padding: 5px 0px;
+	font-family: Lato,sans-serif;
+}
+
+.guide div a:link {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+.guide div a:hover {
+	text-decoration: underline;
+	color: rgb(255,255,255);
+}
