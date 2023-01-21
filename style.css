@@ -251,7 +251,7 @@ figcaption {
 /*Links*/
 .extraInfo {
 	display: flex;
-	background-color: rgb(59,59,79);
+	background-color: rgb(42,42,64);
 	color: rgb(255,255,255);
 	font-size: 16px;
 }
@@ -267,6 +267,10 @@ figcaption {
 }
 
 .info h3 a:link {
+	color: rgb(255,255,255);
+}
+
+.info h3 a:visited {
 	color: rgb(255,255,255);
 }
 
@@ -310,10 +314,52 @@ figcaption {
 
 .guide div a:link {
 	text-decoration: none;
-	color: rgb(255,255,255);
+	color: rgb(223,223,226);
+}
+
+.guide div a:visited {
+	text-decoration: none;
+	color: rgb(223,223,226);
 }
 
 .guide div a:hover {
 	text-decoration: underline;
-	color: rgb(255,255,255);
+	color: rgb(223,223,226);
+}
+
+/*footer*/
+footer {
+	background-color: rgb(42,42,64);
+}
+
+.line {
+	border-bottom: 2px solid rgb(59,59,79);
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+.outro {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+.outro a {
+	padding: 5px;
+}
+
+.outro a:link {
+	color: rgb(223,223,226);
+	text-decoration: none;
+}
+
+.outro a:visited {
+	color: rgb(223,223,226);
+	text-decoration: none;
+}
+
+.outro a:hover {
+	text-decoration: underline;
+	color: rgb(223,223,226);
 }
